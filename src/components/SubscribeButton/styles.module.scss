@@ -1,0 +1,18 @@
+@import "../../styles/mixins.scss";
+
+.subscribeButton {
+  height: 4rem;
+  width: 260px;
+  border-radius: 2rem;
+  background-color: var(--yellow-500);
+  color: var(--grey-900);
+  font-size: 1.25rem;
+  font-weight: bold;
+  transition: filter 0.3s;
+
+  @include flexAlignCenter;
+
+  &:hover {
+    filter: brightness(0.8);
+  }
+}

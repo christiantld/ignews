@@ -1,0 +1,25 @@
+:root {
+  // Color Palette
+  --white: #fff;
+  --black: #000;
+
+  --grey-100: #e0e0e5;
+  --grey-300: #a8a8b3;
+  --grey-700: #323238;
+  --grey-800: #26262e;
+  --grey-850: #1f2729;
+  --grey-900: #121214;
+
+  --cyan-500: #61dafb;
+  --yellow-500: #eba417;
+
+  // Breakpoints
+  --breakpoint-lg: 1080px;
+  --breakpoint-md: 720px;
+  --breakpoint-sm: 576px;
+
+  // Typography
+  --font-size-lg: 93.75%;
+  --font-size-md: 87.5%;
+  --font-size-sm: 75%;
+}
